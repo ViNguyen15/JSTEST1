@@ -6,11 +6,8 @@
 
 
 /**
- * name: *
- * date: *
- * on completion of this test user would be ready for general motors next test
- * please submit record and commits as well as latest resume on gm career site for evaluation: https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/login?redirect=%2FCareers_GM%2Fjob%2FConcord-North-Carolina-United-States-of-America%2FSoftware-Developer----Motorsports_JR-202302735%2Fapply
- * 
+ * name: Deric
+ * date: 2/20/2023
  */
 let cardList = [
   {
