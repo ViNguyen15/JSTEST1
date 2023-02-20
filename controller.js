@@ -2,7 +2,9 @@
 // you must create dynamic object (using class)
 // create button that when click creates a page form (like a popup page)
 // form must have 3 fields (hint: input) that would take in user's name, age, place
-// create submit button on the form that when clicked would create an object base on the fields and adds the object into the existing array (card)
+// create submit button on the form that when clicked would create an object base on the fields and 
+// adds the object into the existing array (card) and
+// the form will disappear letting user see the update
 
 
 /**
