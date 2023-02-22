@@ -8,23 +8,9 @@
 
 
 /**
- * name: Derek
+ * name: Deric
  * date: 2/20/2023
  */
-
-class CardCreation{
-  age;
-  place;
-  name;
-    constructor(userAge, userPlace, userName){
-      this.age = userAge;
-      this.place = userPlace;
-      this.name = userName;
-    }
-  }
-
-
-
 let cardList = [
   {
      age: 2,
@@ -35,19 +21,11 @@ let cardList = [
   {
       age: 16,
       place: "2nd",
-      name: "Derek" 
-   },
-
-   new CardCreation(10000, "3rd", "Diablo"),
-   
-   2
+      name: "Deric" 
+   }
 ];
 
-
-
 function webPage(){
-
-  document.getElementById("bigBox").innerHTML = ``;
 
   for(let i = 0; i < cardList.length; i++){
       document.getElementById("bigBox").innerHTML += `
@@ -59,41 +37,6 @@ function webPage(){
   `;
   }
 
-  document.getElementById("bigBox").innerHTML += `
-    <button id="button" onclick="formCreation()">+</button>
-  `;
-
-}
-
-function formCreation(){
-  document.getElementById("bigBox").innerHTML += `
-  <div id="formBox">
-    <div>
-      <button id="formButton" onclick="webPage()">X</button>
-    </div>
-    <div id="formDiv">
-      <div id="formAge">Age:<input type="number" id="userAge"></div>
-      <div id="formPlace">Place:<input type="text" id="userPlace"></div>
-      <div id="formName">Name:<input type="text" id="userName"></div>
-      <button onclick="pushToArray()">Submit</button>
-    </div>
-    
-  </div>
-
-  
-  `;
-}
-
-function pushToArray(){
-
-  // cardList.push(userAge.value);
-  
-  let age = document.getElementById("userAge").value;
-  let place = document.getElementById("userPlace").value;
-  let name = document.getElementById("userName").value;
-
-  cardList.push(new CardCreation(age, place, name));
-  webPage();
 }
 
 
