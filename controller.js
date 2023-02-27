@@ -10,6 +10,7 @@
 /**
  * name: Deric
  * date: 2/20/2023
+ * 
  */
 let cardList = [
   {
