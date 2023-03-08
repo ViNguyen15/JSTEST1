@@ -29,7 +29,13 @@ let cardList = [
     age: 999999999999,
     place: "3rd",
     name: "Jimmay"
-   }
+   },
+
+   {
+    age: 6,
+    place: "4th",
+    name: "Whiskey" 
+ }
 ];
 
 function webPage(){
