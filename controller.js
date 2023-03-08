@@ -8,7 +8,7 @@
 
 
 /**
- * name: Deric
+ * name: Derek
  * date: 2/20/2023
  * 
  */
@@ -22,7 +22,13 @@ let cardList = [
   {
       age: 16,
       place: "2nd",
-      name: "Deric" 
+      name: "Derek" 
+   },
+
+   {
+    age: 999999999999,
+    place: "3rd",
+    name: "Jimmay"
    }
 ];
 
